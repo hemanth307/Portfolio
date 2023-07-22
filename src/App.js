@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/about/About";
+// import Achieve from "./components/achievement/Achieve";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
@@ -22,6 +23,7 @@ function App() {
         <Qualification />
         <Skills />
         <Work />
+        {/* <Achieve /> */}
         <Contact />
       </main>
 

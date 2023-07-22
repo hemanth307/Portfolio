@@ -16,13 +16,12 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            A MERN Stack Developer based in Silchar, India. As a diligent, approachable and empathetic person, passionate about my work and learning new things and excited to
-            prove my technical and problem-solving skills for my self-growth as well as for the growth of the community. <br></br>
+            I am highly enthusiastic about opportunities for me to acquire practical industry experience and further refine my skills. While I may currently lack extensive professional experience, I am eager to make up for it with an unwavering commitment to learning and a genuine passion for software development and remote work.
             <br></br>
           </p>
 
-          <a href={CV} download="" className="button button--flex">
-            Download CV
+          <a href={CV} target="_blank" className="button button--flex">
+            Resume
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
